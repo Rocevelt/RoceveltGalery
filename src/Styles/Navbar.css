@@ -1,0 +1,23 @@
+/* Estilos para el Navbar */
+.navbar-custom {
+  background-color: #f8f9fa; /* Color de fondo blanco */
+  box-shadow: 0 4px 2px -2px gray; /* Sombra para el navbar */
+}
+
+.navbar-brand img {
+  width: 120px; /* Ajusta el tamaño del logo */
+}
+
+.nav-link {
+  color: #5a5a5a; /* Color de texto azul similar */
+  font-size: 18px; /* Tamaño de fuente */
+  font-weight: 500; /* Grosor de fuente */
+}
+
+.nav-link:hover {
+  color: #000; /* Color de texto al pasar el cursor */
+}
+
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 20px; /* Espaciado entre enlaces */
+}
