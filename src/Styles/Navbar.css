@@ -1,23 +1,21 @@
 /* Estilos para el Navbar */
 .navbar-custom {
-  background-color: #f8f9fa; /* Color de fondo blanco */
+  background-color: #323a45; /* Color de fondo */
   box-shadow: 0 4px 2px -2px gray; /* Sombra para el navbar */
+  width: 100%; /* Asegura que el navbar ocupe todo el ancho */
 }
 
-.navbar-brand img {
-  width: 120px; /* Ajusta el tamaño del logo */
+.nav-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .nav-link {
-  color: #5a5a5a; /* Color de texto azul similar */
+  color: #d8d8d9; /* Color de texto */
   font-size: 18px; /* Tamaño de fuente */
   font-weight: 500; /* Grosor de fuente */
 }
 
 .nav-link:hover {
-  color: #000; /* Color de texto al pasar el cursor */
-}
-
-.navbar-nav .nav-item + .nav-item {
-  margin-left: 20px; /* Espaciado entre enlaces */
+  color: #eaeaec; /* Color de texto al pasar el cursor */
 }
